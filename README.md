@@ -1,32 +1,30 @@
-# B012ED deface
+<img src="Assets/logodark.png#gh-dark-mode-only" alt="fluent">
+<img src="Assets/logolight.png#gh-light-mode-only" alt="fluent">
 
-[![chat-bored](https://img.shields.io/badge/endpoint?url=https://b012ed.github.io/chat-B012ED.json&style=?style=for-the-badge&logo=steam)](https://b012ed.github.io/chat.html)
+## ⚡ Features
 
-[![YouTube](https://img.shields.io/badge/endpoint?url=https://b012ed.github.io/B012ED.json&style=?style=for-the-badge&logo=youtube)](https://youtu.be/dSrue-pVzno) 
+- Modern design
+- Many customization options
+- Almost any UI Element you would ever need 
+<br/>
 
-What is B012ED deface tools?<br>
-B012ED deface is a tool for defacing dozens or hundreds of sites at once,depending on the number
-of sites that have been determined by you, this is not dangerous, and this is only the file upload method<br>
+## 🔌 Installation
 
-**how to install and usage:**
+You can load Fluent through a GitHub Release:
 
-**Termux:**
-* `pkg install python2`
-* `pip2 install requests`
-* `pkg install git`
-* `git clone https://github.com/B012ED/deface.git`
-* `cd deface`
-* `python2 def.py`
+```lua
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+```
+<br/>
 
-**Linux:**
-* `apt-get install python2`
-* `apt-get install python2-pip`
-* `pip install requests`
-* `apt-get install git`
-* `git clone https://github.com/B012ED/deface.git`
-* `cd deface`
-* `python def.py`
+## 📜 Usage
 
-**NOTE:** before using this tool, put your deface script with the def.py file, edit the file 'target.txt' and enter the target url
+[Example Script](https://github.com/dawid-scripts/Fluent/blob/master/Example.lua)
+<br/>
 
+## Credits
 
+- [richie0866/remote-spy](https://github.com/richie0866/remote-spy) - Assets for the UI, some of the code
+- [violin-suzutsuki/LinoriaLib](https://github.com/violin-suzutsuki/LinoriaLib) - Code for most of the elements, save manager
+- [7kayoh/Acrylic](https://github.com/7kayoh/Acrylic) - Porting richie0866's acrylic module to lua
+- [Latte Softworks & Kotera](https://discord.gg/rMMByr4qas) - Bundler
